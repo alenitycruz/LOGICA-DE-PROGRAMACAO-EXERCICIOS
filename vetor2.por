@@ -6,7 +6,7 @@ programa
 		cadeia cat[4] = {"Ni", "Pt", "Pd", "Rh"}
 
 
-		escreva(cat[2])
+		escreva(cat[3])
 		
 	}
 }
@@ -15,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 78; 
+ * @POSICAO-CURSOR = 98; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
