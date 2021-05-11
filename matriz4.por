@@ -3,13 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vet[4] = {3,4,5,6}
-		inteiro notas[4][4] = {{7,8,9,10},{10,9,8,7},{8,9,7,10},{9,7,10,8}}
-		para(inteiro l=0; l<4; l++){
-			para (inteiro c=0; c<4; c++) {
-				escreva(notas[l][c], ", ")	
+		inteiro matriz [2][2]
+		para(inteiro l=0; l<2; l++){
+			para (inteiro c=0; c<2; c++) {
+				leia(matriz[l][c])	
 			}
 			escreva("\n")
+		}
+		para(inteiro l=0; l<2; l++){
+			para (inteiro c=0; c<2; c++) {
+				escreva(matriz[l][c])	
+			}
+               escreva("\n")
 		}
 	}
 }
@@ -18,9 +23,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 256; 
+ * @POSICAO-CURSOR = 54; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {notas, 7, 10, 5};
+ * @SIMBOLOS-INSPECIONADOS = {matriz, 6, 10, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
