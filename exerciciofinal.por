@@ -34,7 +34,7 @@ programa
 			leia(_)
 	}
 	funcao logico vagaOcupada(inteiro vaga){
-		se (vagas[vagas-1] == vagas){
+		se (vagas[vaga-1] == vaga){
 			retorne verdadeiro
 		}senao {
 			retorne falso
@@ -47,11 +47,11 @@ programa
 		se(vagaOcupada(vaga)){
 			escreva("Dois corpos não ocupam o mesmo espaço ao mesmo tempo!Há um veículo estacionado nesta")
 		}senao {
-			vagas[vagas-1] = 1
+			vagas[vaga-1] = 1
 			escreva("Sucesso.")
 		}
 	}
-	funcao registrarSaida() {
+	funcao registrarSaida() {
 		inteiro vaga
 		escreva("Digite o numero da vaga para a qual você deseja registrar uma saída.\n")
 		leia(vaga)
@@ -65,7 +65,7 @@ programa
 	funcao listarVagas(){
 		abrir()
 		escreva("As vagas serão listadas abaixo. Dois pontos inticam área ocupada, enquando números indicam")
-		escrevam("------------------------------------\n")
+		escreva("------------------------------------\n")
 		para(inteiro i=1; i<=20; i++){
 			se(vagaOcupada(i)){
 				escreva("|**")
@@ -91,11 +91,11 @@ programa
 			limpa()
 			escolha(opcao){
 				caso 1:
-				registarEntrada()
+				registrarEntrada()
 				espere()
 				pare
 				caso 2:
-				registarSaida()
+				registrarSaida()
 				espere()
 				pare
 				caso 3:
@@ -115,7 +115,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1587; 
+ * @POSICAO-CURSOR = 2510; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
